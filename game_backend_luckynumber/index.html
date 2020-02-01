@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>..bsBilal..</title>
+</head>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+	var socket=io();
+	socket.on('result',function(data){document.writeln('Winning number is :'+data)});
+
+</script>
+
+<body>
+	<h1>This is back end</h1>
+</body>
+</html>
